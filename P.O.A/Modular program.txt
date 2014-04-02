@@ -1,0 +1,20 @@
+
+Writing Modular Programs
+
+Function prototypes in header files & Definition in C files
+
+keep the prototypes of the related functions defined by you in a .h file 
+
+Write the definitions of those functions in a .c file 
+
+Compile the .c file to create the object file using the following command at UNIX prompt 
+         cc -c fun1.o fun1.c
+
+Write the main program and simply call the functions as per your requirement
+
+Include the corresponding header files
+
+Finally compile the main program at UNIX prompt as follows:
+	cc -o fun1.o final.c
+
+Write a makefile!
